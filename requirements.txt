@@ -1,0 +1,8 @@
+torch==1.2.0
+gym==0.12.5
+mujoco-py==1.50.1.56
+opencv-python
+gym[atari]
+couldpickle
+pillow
+tqdm
