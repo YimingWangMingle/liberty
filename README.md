@@ -1,7 +1,7 @@
 # LIBERTY:Efficient Potential-Based Exploration in Reinforcement Learning Using the Inverse Dynamic Bisimulation Metric
 This is the official implementation of NeurIPS 2023 paper - [Efficient Potential-Based Exploration in Reinforcement Learning Using the Inverse Dynamic Bisimulation Metric]
 ## 
-![illustrations](figures/illustration.png)
+![illustrations](figure/illustration.png)
 ## Requirements
 - cuda-10.0
 - pytorch==1.2.0
