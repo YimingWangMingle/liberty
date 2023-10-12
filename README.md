@@ -2,6 +2,7 @@
 This is the official implementation of NeurIPS 2023 paper - [Efficient Potential-Based Exploration in Reinforcement Learning Using the Inverse Dynamic Bisimulation Metric]
 ## 
 ![illustrations](figure/illustration.png)
+![illustrations](figure/mario.png)
 ## Requirements
 - cuda-10.0
 - pytorch==1.2.0
