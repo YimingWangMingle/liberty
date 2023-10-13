@@ -28,6 +28,6 @@ cd ppo/
 ```
 ## Instructions
 ```bash
-python -u train.py --env-name='HalfCheetah-v2' --cuda (if cuda is available) --reward-delay-freq=1 --log-dir='logs' --seed=777
+python -u train.py --env-name='HalfCheetah-v2' --cuda (if cuda is available) --log-dir='logs' --seed=777
 ```
 
