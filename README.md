@@ -1,7 +1,7 @@
 # LIBERTY:Efficient Potential-Based Exploration in Reinforcement Learning Using the Inverse Dynamic Bisimulation Metric
 - This is the implementation of NeurIPS 2023 paper - [Efficient Potential-Based Exploration in Reinforcement Learning Using the Inverse Dynamic Bisimulation Metric]
 
-- Advanced implementations of other tasks, please refer to [EME](https://github.com/YimingWangMingle/EME/blob/main/src/habitat-lab/liberty_train.py) and [LEF](https://github.com/YimingWangMingle/LEF-Latent-Exploration-Framework/tree/main) (up-to-date)
+- Latest advanced implementations of other tasks, please refer to [EME](https://github.com/YimingWangMingle/EME/blob/main/src/habitat-lab/liberty_train.py) and [LEF](https://github.com/YimingWangMingle/LEF-Latent-Exploration-Framework/tree/main) (up-to-date)
 ## 
 ## Requirements
 - cuda-10.0
