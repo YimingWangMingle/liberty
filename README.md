@@ -1,8 +1,8 @@
 # LIBERTY:Efficient Potential-Based Exploration in Reinforcement Learning Using the Inverse Dynamic Bisimulation Metric
-This is the official implementation of NeurIPS 2023 paper - [Efficient Potential-Based Exploration in Reinforcement Learning Using the Inverse Dynamic Bisimulation Metric]
+- This is the implementation of NeurIPS 2023 paper - [Efficient Potential-Based Exploration in Reinforcement Learning Using the Inverse Dynamic Bisimulation Metric]
+
+- Advanced implementations of other tasks, please refer to [EME](https://github.com/YimingWangMingle/EME/blob/main/src/habitat-lab/liberty_train.py) and [LEF](https://github.com/YimingWangMingle/LEF-Latent-Exploration-Framework/tree/main) (up-to-date)
 ## 
-![illustrations](figure/illustration.png)
-![illustrations](figure/mario.png)
 ## Requirements
 - cuda-10.0
 - pytorch==1.2.0
@@ -30,4 +30,6 @@ cd ppo/
 ```bash
 python -u train.py --env-name='HalfCheetah-v2' --cuda (if cuda is available) --log-dir='logs' --seed=777
 ```
-
+```bash
+python -u train_atari.py --env-name='BreakoutNoFrameskip-v4' --cuda (if cuda is available) --log-dir='logs' --seed=777
+```
