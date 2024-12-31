@@ -4,9 +4,6 @@ from torch import optim
 import torch.nn.functional as F
 from utils.running_filter.running_filter import ZFilter
 from models import cnn_net, mlp_net, mlp_inv_net
-from transition_model import make_transition_model
-from encoder import PixelEncoder,IdentityEncoder
-from decoder import PixelDecoder
 from policy import select_actions, evaluate_actions
 from datetime import datetime
 import os
